@@ -54,13 +54,17 @@ Membuat fungsi ‘kategori_paparan’ berdasarkan persentase paparan panas
 ## 3.	Data Visualization
 ### a.	Tren paparan panas tiap negara
  
-
-### b.	Rata-rata paparan panas setiap negara
+ ![Tren paparan panas tiap negara](images/tren_paparan_panas.png)
  
+### b.	Rata-rata paparan panas setiap negara
+
+  ![Rata-rata paparan panas setiap negara](images/rata_rata_paparan_panas.png)
+  
 ## Model Selection and Analysis
 ### a.	Double Exponential Smoothing
  
-
+ ![Double Exponential Smoothing](images/model_des.png)
+  
 Secara umum, visualisasi ini menunjukkan seberapa baik model Double Exponential Smoothing mampu menangkap pola dalam data historis dan memprediksi nilai di masa depan. Beberapa poin penting yang dapat kita amati:
 •	Kemampuan Model dalam Menangkap Pola:
 o	Pola Musiman: Beberapa negara menunjukkan pola musiman yang jelas, seperti fluktuasi tahunan. Model DES umumnya cukup baik dalam menangkap pola musiman ini.
@@ -71,7 +75,8 @@ o	Data Uji: Akurasi pada data uji bervariasi antar negara. Beberapa negara menun
 
 ### b.	Triple Exponential Smoothing
  
-
+  ![Triple Exponential Smoothing](images/model_tes.png)
+  
 Secara keseluruhan, model Tripple Exponensial Smooting terlihat mampu menangkap pola umum dalam data, terutama tren dan musim. Namun, tingkat akurasi prediksi bervariasi antar negara. Beberapa hal yang bisa kita amati:
 •	Kemampuan Menangkap Tren: 
 Model umumnya dapat mengikuti tren kenaikan atau penurunan yang terjadi pada data. 
@@ -82,7 +87,9 @@ a.	Data Latih: Prediksi pada data latih umumnya cukup baik, menunjukkan bahwa mo
 b.	Data Uji: Akurasi pada data uji lebih bervariasi. Beberapa negara menunjukkan prediksi yang cukup akurat, sementara yang lain memiliki kesalahan yang lebih besar.
 
 ### c.	ARIMA
- 
+
+![ARIMA](images/model_arima.png)
+
 Secara keseluruhan, model ARIMA terlihat mampu menangkap pola umum dalam data, terutama tren dan musim. Namun, tingkat akurasi prediksi bervariasi antar negara. Beberapa hal yang bisa kita amati:
 •	Kemampuan Menangkap Tren: 
 Model umumnya dapat mengikuti tren kenaikan atau penurunan yang terjadi pada data. 
@@ -93,7 +100,8 @@ a.	Data Latih: Prediksi pada data latih umumnya cukup baik, menunjukkan bahwa mo
 b.	Data Uji: Akurasi pada data uji lebih bervariasi. Beberapa negara menunjukkan prediksi yang cukup akurat seperti Cihina dan Indonesia, sementara yang lain memiliki kesalahan yang lebih besar.
 
 ## Metric Evaluation
- 
+
+
 Alasan utama kami memilih kedua metrik ini adalah: RMSE menunjukkan kesalahan dalam angka, sedangkan MAPE menunjukkan kesalahan dalam persentase sehingga keduanya saling melengkapi dan dapat dengan mudah dipahami.
 Hasil evaluasi menunjukkan bahwa model ARIMA memiliki performa terbaik dengan RMSE dan MAPE terendah di sebagian besar negara, seperti Indonesia (RMSE: 10.72, MAPE: 0.35) China (RMSE: 15.6178 MAPE: 0,2493) dan India (RMSE: 1.50, MAPE: 0.16). Model ini unggul dibandingkan Double dan Triple Exponential Smoothing.
 Negara China yang telah diberi warna hijau menandakan bahwa untuk selanjutnya tim kami akan berfokus pada negara China dalam pemodelan ini.
