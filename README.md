@@ -101,12 +101,15 @@ b.	Data Uji: Akurasi pada data uji lebih bervariasi. Beberapa negara menunjukkan
 
 ## Metric Evaluation
 
+![Metric Evaluation](images/metric_evaluation.png)
 
 Alasan utama kami memilih kedua metrik ini adalah: RMSE menunjukkan kesalahan dalam angka, sedangkan MAPE menunjukkan kesalahan dalam persentase sehingga keduanya saling melengkapi dan dapat dengan mudah dipahami.
 Hasil evaluasi menunjukkan bahwa model ARIMA memiliki performa terbaik dengan RMSE dan MAPE terendah di sebagian besar negara, seperti Indonesia (RMSE: 10.72, MAPE: 0.35) China (RMSE: 15.6178 MAPE: 0,2493) dan India (RMSE: 1.50, MAPE: 0.16). Model ini unggul dibandingkan Double dan Triple Exponential Smoothing.
 Negara China yang telah diberi warna hijau menandakan bahwa untuk selanjutnya tim kami akan berfokus pada negara China dalam pemodelan ini.
 
 ## Forecasting
+
+![Forecasting](images/forecasting.png)
  
 Menurut prediksi menggunakan model ARIMA, paparan panas di China akan meningkat di tahun 2025 kemudian menurun selama 10 tahun ke depan (2024 - 2034).
 
