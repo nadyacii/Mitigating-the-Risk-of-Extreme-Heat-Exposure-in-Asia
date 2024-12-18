@@ -34,8 +34,7 @@ https://public.tableau.com/views/RealDasboardEurekaFinalProject/China?:language=
 
 ## Explanatory Data Analysis (EDA)
 ### 1.	Korelasi antar feature
- 
-
+ ![Feature Correlation] ()
 Insight:
 Terdapat korelasi yang kuat antara populasi dan energi terbarukan (0.96), menunjukkan bahwa pertumbuhan populasi mendorong peningkatan pemanfaatan energi terbarukan. Namun, populasi juga memiliki korelasi positif dengan emisi CO2 (0.69), yang mengindikasikan peningkatan aktivitas manusia turut menyumbang emisi karbon. Di sisi lain, luas hutan memiliki korelasi negatif dengan populasi (-0.10) dan energi terbarukan (-0.07). Selain itu, heat exposure memiliki hubungan positif sedang dengan emisi CO2 (0.46) dan populasi (0.25), yang menggambarkan bahwa peningkatan emisi karbon dioksida dan pertumbuhan populasi dapat memengaruhi peningkatan suhu lingkungan.
 Secara keseluruhan, hasil ini menekankan pentingnya pengendalian emisi CO2 dan pelestarian hutan sebagai upaya untuk meminimalkan dampak perubahan iklim di tengah pertumbuhan populasi yang terus meningkat.
