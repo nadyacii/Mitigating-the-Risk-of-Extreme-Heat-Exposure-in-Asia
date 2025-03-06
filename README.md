@@ -47,8 +47,11 @@ Menghitung jumlah populasi yang terekspos pada hari panas
 
 ### b.	Membuat feature exposure rate
 Membuat fungsi ‘kategori_paparan’ berdasarkan persentase paparan panas
+
 •	Jika persentase paparan < 25% = ‘Low’
+
 •	Jika 25% <= % paparan <= 75% = ‘Moderate’
+
 •	Jika persentase paparan > 75% = ‘High’
 
 
